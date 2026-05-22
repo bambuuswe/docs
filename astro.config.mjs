@@ -6,7 +6,21 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'TrucklineMP',
+			title: {
+				en: 'TrucklineMP',
+				pl: 'TrucklineMP',
+			},
+			defaultLocale: 'en',
+			locales: {
+				root: {
+					label: 'English',
+					lang: 'en',
+				},
+				pl: {
+					label: 'Polski',
+					lang: 'pl',
+				},
+			},
 			logo: {
 				src: './src/assets/truckline_large_no_shadow.svg',
 				alt: 'TrucklineMP',
@@ -22,21 +36,61 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Getting Started',
+					translations: {
+						pl: 'Zacznij tutaj',
+					},
 					items: [
-						{ label: 'Introduction', slug: 'guides/getting-started' },
+						{
+							slug: 'guides/getting-started',
+							label: 'Introduction',
+							translations: {
+								pl: 'Wprowadzenie',
+							},
+						},
 					],
 				},
 				{
 					label: 'Community',
+					translations: {
+						pl: 'Społeczność',
+					},
 					items: [
-						{ label: 'Server Rules', slug: 'guides/rules' },
-						{ label: 'FAQ', slug: 'guides/faq' },
+						{
+							slug: 'guides/rules',
+							label: 'Server Rules',
+							translations: {
+								pl: 'Zasady serwera',
+							},
+						},
+						{
+							slug: 'guides/faq',
+							label: 'FAQ',
+							translations: {
+								pl: 'FAQ',
+							},
+						},
 					],
 				},
 				{
 					label: 'Platform',
+					translations: {
+						pl: 'Platforma',
+					},
 					items: [
-						{ label: 'Features', slug: 'guides/features' },
+						{
+							slug: 'guides/features',
+							label: 'Features',
+							translations: {
+								pl: 'Funkcje',
+							},
+						},
+						{
+							slug: 'guides/contributing',
+							label: 'Contributing',
+							translations: {
+								pl: 'Współtworzenie',
+							},
+						},
 					],
 				},
 			],

@@ -60,6 +60,13 @@ export default defineConfig({
 								pl: 'Partnerski Program VTC',
 							},
 						},
+						{
+							slug: 'guides/vtc-livery-guidelines',
+							label: 'VTC Livery Guidelines',
+							translations: {
+								pl: 'Wytyczne Malowania VTC',
+							},
+						},
 					],
 				},
 				{

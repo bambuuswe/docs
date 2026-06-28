@@ -101,6 +101,13 @@ export default defineConfig({
 								pl: 'Weryfikacja Discord',
 							},
 						},
+						{
+							slug: 'guides/vtc-visibility',
+							label: 'Visibility',
+							translations: {
+								pl: 'Widoczność',
+							},
+						},
 					],
 				},
 				{

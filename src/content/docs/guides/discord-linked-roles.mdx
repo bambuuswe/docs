@@ -7,7 +7,7 @@ description: Set up TrucklineMP Linked Roles on your Discord server so members c
 
 Discord **Linked Roles** let server admins assign roles automatically when a member connects their TrucklineMP account through Discord. Members sign in on TrucklineMP once; Discord keeps their role connection up to date.
 
-This works on any Discord server — not only VTC servers. If you run a VTC community, pair this guide with [VTC Discord Verification](/guides/vtc-discord-verification/) to also show your server on your VTC profile.
+This works on **any** Discord server — community hubs, friend groups, event servers, and more. It is separate from VTC-specific features like server verification on your VTC profile.
 
 ---
 
@@ -15,7 +15,7 @@ This works on any Discord server — not only VTC servers. If you run a VTC comm
 
 - **Automatic verification** — Members prove they have a TrucklineMP account without manual role assignment
 - **Staff detection** — Create a role that only TrucklineMP staff receive
-- **Bot commands** — Linked members can use `/profile`; verified VTC servers can use `/vtc`
+- **Bot commands** — Linked members can use `/profile` to look up TrucklineMP profiles in Discord
 - **Always in sync** — When a member's TrucklineMP status changes, their Linked Role connection updates on the next sync
 
 ---
@@ -25,7 +25,7 @@ This works on any Discord server — not only VTC servers. If you run a VTC comm
 ### Server admins
 
 - **Manage Server** permission in Discord
-- The [TrucklineMP bot](https://discord.com/discovery/applications/1467506804727746854) added to your server (recommended for slash commands and VTC verification)
+- The [TrucklineMP bot](https://discord.com/discovery/applications/1467506804727746854) added to your server (recommended for slash commands like `/profile`)
 
 ### Members
 
@@ -40,8 +40,6 @@ This works on any Discord server — not only VTC servers. If you run a VTC comm
 2. Click **Add to Server** (or use the invite link from your VTC settings if you are verifying a VTC server)
 3. Select your server and approve the requested permissions
 4. Complete the installation
-
-**VTC servers:** After adding the bot, follow [VTC Discord Verification](/guides/vtc-discord-verification/) and run `/verify-server` with your token so `/vtc` works and your server appears on your VTC profile.
 
 **Recommended bot permissions:**
 
@@ -111,9 +109,9 @@ After the bot is in your server and members have linked:
 | Command | Who can use it | What it does |
 |---------|----------------|--------------|
 | `/profile [user]` | Everyone | Shows a linked member's TrucklineMP profile (name, handle, member since, Steam status) |
-| `/vtc` | Everyone | Shows the VTC linked to this server (requires `/verify-server` first) |
-| `/verify-server` | Administrators | Links the server to your VTC using a token from TrucklineMP |
 | `/about` | Everyone | Information about TrucklineMP |
+
+VTC owners can additionally use `/verify-server` and `/vtc` after [verifying their server on TrucklineMP](/guides/vtc-discord-verification/).
 
 If `/profile` says a user has not linked their account, they still need to complete **Step 3** above.
 
@@ -166,15 +164,13 @@ Connecting Discord under TrucklineMP **Connections** does not by itself assign L
 
 ## Best Practices
 
-- Create one **verified member** Linked Role before opening recruitment or member-only channels
+- Create one **verified member** Linked Role before opening member-only channels
 - Place the bot role high enough in the role list to assign your linked roles
 - Pin a short message in `#rules` or `#welcome` explaining how to connect via **Linked Roles**
-- For VTCs, verify the server on TrucklineMP so `/vtc` and your public profile stay accurate
 
 ---
 
 ## Related Guides
 
-- [VTC Discord Verification](/guides/vtc-discord-verification/) — Link your server to your VTC profile
 - [Connections](/guides/connections/) — Link Discord, Google, and other accounts on TrucklineMP
-- [VTC Recruitment](/guides/vtc-recruitment/) — Onboard new members after they verify
+- [VTC Discord Verification](/guides/vtc-discord-verification/) — Optional: link a VTC server to your TrucklineMP profile

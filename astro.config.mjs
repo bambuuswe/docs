@@ -126,17 +126,26 @@ export default defineConfig({
 							},
 						},
 						{
-							slug: 'guides/discord-linked-roles',
-							label: 'Discord Linked Roles',
-							translations: {
-								pl: 'Połączone Role Discord',
-							},
-						},
-						{
 							slug: 'guides/vtc-visibility',
 							label: 'Visibility',
 							translations: {
 								pl: 'Widoczność',
+							},
+						},
+					],
+				},
+				{
+					label: 'Discord Bot',
+					translations: {
+						pl: 'Bot Discord',
+					},
+					collapsed: false,
+					items: [
+						{
+							slug: 'guides/discord-linked-roles',
+							label: 'Linked Roles',
+							translations: {
+								pl: 'Połączone Role',
 							},
 						},
 					],

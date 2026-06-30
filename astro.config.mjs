@@ -128,6 +128,7 @@ export default defineConfig({
 							label: 'Announcements',
 							translations: {
 								pl: 'Ogłoszenia',
+								ru: 'Уведомления',
 							},
 						},
 						{
@@ -152,6 +153,7 @@ export default defineConfig({
 					label: 'Discord Bot',
 					translations: {
 						pl: 'Bot Discord',
+						ru: 'Бот Discord',
 					},
 					collapsed: false,
 					items: [
@@ -160,6 +162,7 @@ export default defineConfig({
 							label: 'Linked Roles',
 							translations: {
 								pl: 'Połączone Role',
+								ru: 'Привязанные Роли',
 							},
 						},
 					],

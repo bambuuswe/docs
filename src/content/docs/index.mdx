@@ -1,22 +1,22 @@
 ---
-title: TrucklineMP Documentation
-description: Official documentation for TrucklineMP. VTC programs, management guides, account settings, Discord, and developers.
+title: TrucklineMP-dokumentation
+description: Den officiella dokumentationen för TrucklineMP. VTC-program, hanteringsguider, kontoinställningar, Discord och utvecklare.
 template: splash
 hero:
-  tagline: The multiplayer platform built for the hardcore trucking community.
+  tagline: Multiplayer-plattformen byggd för den hängivna lastbilscommunityn.
   image:
     file: ../../assets/truckline_large_no_shadow.svg
     alt: TrucklineMP
   actions:
-    - text: VTC Guides
+    - text: VTC-guider
       link: /guides/vtc-general-settings/
       icon: right-arrow
       variant: primary
-    - text: Account Guides
+    - text: Kontoguider
       link: /guides/profile-settings/
       icon: setting
       variant: minimal
-    - text: Contributors
+    - text: Bidragsgivare
       link: /guides/contributors/
       icon: open-book
       variant: minimal
@@ -27,98 +27,98 @@ import HomeSection from '../../components/HomeSection.astro';
 import QuickLinks from '../../components/QuickLinks.astro';
 
 <QuickLinks links={[
-  { label: 'VTC Programs', href: '#vtc-programs' },
-  { label: 'VTC Guides', href: '#vtc-guides' },
-  { label: 'Discord Bot', href: '#discord-bot' },
-  { label: 'Developers', href: '#developers' },
-  { label: 'Account', href: '#account-guides' },
-  { label: 'Contribute', href: '#contribute' },
+  { label: 'VTC-program', href: '#vtc-programs' },
+  { label: 'VTC-guider', href: '#vtc-guides' },
+  { label: 'Discord-bot', href: '#discord-bot' },
+  { label: 'Utvecklare', href: '#developers' },
+  { label: 'Konto', href: '#account-guides' },
+  { label: 'Bidra', href: '#contribute' },
 ]} />
 
 <HomeSection
   id="vtc-programs"
-  title="VTC Programs"
-  description="Official programs, eligibility rules, and design guidelines for Virtual Trucking Companies on TrucklineMP."
+  title="VTC-program"
+  description="Officiella program, behörighetsregler och designriktlinjer för Virtual Trucking Companies på TrucklineMP."
   icon="check-circle"
 >
   <CardGrid stagger>
-    <Card title="Verified VTC Program" icon="check-circle">
-      Learn how to apply for Verified status, meet the requirements, and maintain your VTC's verification.
-      [Read the rules →](/guides/verified-vtc-program/)
+    <Card title="Program för verifierade VTC:er" icon="check-circle">
+      Lär dig hur du ansöker om verifierad status, uppfyller kraven och bibehåller din VTC:s verifiering.
+      [Läs reglerna →](/guides/verified-vtc-program/)
     </Card>
-    <Card title="Verified VTC Discord Role" icon="discord">
-      Request the Verified VTC Manager/Owner role on the main TrucklineMP Discord after verification.
-      [Read the guide →](/guides/verified-vtc-discord-role/)
+    <Card title="Discord-roll för verifierade VTC:er" icon="discord">
+      Ansök om rollen för verifierad VTC-chef/ägare på TrucklineMP:s huvud-Discord efter att verifieringen är klar.
+      [Läs guiden →](/guides/verified-vtc-discord-role/)
     </Card>
-    <Card title="Partnered VTC Program" icon="star">
-      Discover the benefits of becoming a Partnered VTC and the eligibility criteria for this elite status.
-      [Learn more →](/guides/partnered-vtc-program/)
+    <Card title="Program för partner-VTC:er" icon="star">
+      Upptäck fördelarna med att bli en partner-VTC och behörighetskraven för denna elitstatus.
+      [Läs mer →](/guides/partnered-vtc-program/)
     </Card>
-    <Card title="VTC Livery Guidelines" icon="document">
-      Design rules and approval process for custom in-game truck liveries available to Partnered VTCs.
-      [Read the guidelines →](/guides/vtc-livery-guidelines/)
+    <Card title="Riktlinjer för VTC-liveries" icon="document">
+      Designregler och godkännandeprocess för anpassade in-game lastbilsskins tillgängliga för partner-VTC:er.
+      [Läs riktlinjerna →](/guides/vtc-livery-guidelines/)
     </Card>
   </CardGrid>
 </HomeSection>
 
 <HomeSection
   id="vtc-guides"
-  title="VTC Guides"
-  description="Step-by-step guides for creating, managing, and growing your VTC on TrucklineMP."
+  title="VTC-guider"
+  description="Steg-för-steg-guider för att skapa, hantera och växa din VTC på TrucklineMP."
   icon="setting"
 >
   <CardGrid stagger>
-    <Card title="Creating a VTC" icon="rocket">
-      Eligibility, the creation wizard, and what happens after launch.
-      [Read the guide →](/guides/vtc-creating/)
+    <Card title="Skapa en VTC" icon="rocket">
+      Behörighet, guiden för skapande och vad som händer efter lansering.
+      [Läs guiden →](/guides/vtc-creating/)
     </Card>
-    <Card title="VTC Directory" icon="eye">
-      Browse, search, and filter companies on the public directory.
-      [Read the guide →](/guides/vtc-directory/)
+    <Card title="VTC-katalog" icon="eye">
+      Bläddra, sök och filtrera företag i den publika katalogen.
+      [Läs guiden →](/guides/vtc-directory/)
     </Card>
-    <Card title="General Settings" icon="setting">
-      Configure your VTC's identity, social links, recruitment requirements, and core settings.
-      [Read the guide →](/guides/vtc-general-settings/)
+    <Card title="Allmänna inställningar" icon="setting">
+      Konfigurera din VTC:s identitet, sociala länkar, rekryteringskrav och kärninställningar.
+      [Läs guiden →](/guides/vtc-general-settings/)
     </Card>
-    <Card title="Roles & Permissions" icon="user">
-      Create roles, assign permissions, and build your VTC's hierarchy.
-      [Read the guide →](/guides/vtc-roles-permissions/)
+    <Card title="Roller & behörigheter" icon="user">
+      Skapa roller, tilldela behörigheter och bygg upp din VTC:s hierarki.
+      [Läs guiden →](/guides/vtc-roles-permissions/)
     </Card>
-    <Card title="Member Management" icon="user">
-      Manage your member roster, assign roles, add staff notes, and handle member actions.
-      [Read the guide →](/guides/vtc-member-management/)
+    <Card title="Medlemshantering" icon="user">
+      Hantera din medlemslista, tilldela roller, lägg till personalanteckningar och hantera medlemsåtgärder.
+      [Läs guiden →](/guides/vtc-member-management/)
     </Card>
-    <Card title="Recruitment" icon="document">
-      Configure application forms, custom questions, and manage how users apply to your VTC.
-      [Read the guide →](/guides/vtc-recruitment/)
+    <Card title="Rekrytering" icon="document">
+      Konfigurera ansökningsformulär, anpassade frågor och hantera hur användare ansöker till din VTC.
+      [Läs guiden →](/guides/vtc-recruitment/)
     </Card>
-    <Card title="Events" icon="external">
-      Schedule convoys, RSVPs, slots, attendance, and the global events calendar.
-      [Read the guide →](/guides/vtc-events/)
+    <Card title="Evenemang" icon="external">
+      Schemalägg konvojer, OSA, platser, närvaro och den globala evenemangskalendern.
+      [Läs guiden →](/guides/vtc-events/)
     </Card>
-    <Card title="News" icon="document">
-      Publish posts on your VTC profile and manage your news feed.
-      [Read the guide →](/guides/vtc-news/)
+    <Card title="Nyheter" icon="document">
+      Publicera inlägg på din VTC-profil och hantera ditt nyhetsflöde.
+      [Läs guiden →](/guides/vtc-news/)
     </Card>
-    <Card title="Announcements" icon="external">
-      Send Discord webhook notifications when members join, applications arrive, events change, and more.
-      [Read the guide →](/guides/vtc-announcements/)
+    <Card title="Meddelanden" icon="external">
+      Skicka Discord-webhook-meddelanden när medlemmar går med, ansökningar kommer in, evenemang ändras med mera.
+      [Läs guiden →](/guides/vtc-announcements/)
     </Card>
-    <Card title="Discord Verification" icon="external">
-      Link and verify your VTC's Discord server to display it on your public profile.
-      [Read the guide →](/guides/vtc-discord-verification/)
+    <Card title="Discord-verifiering" icon="external">
+      Koppla och verifiera din VTC:s Discord-server för att visa den på din offentliga profil.
+      [Läs guiden →](/guides/vtc-discord-verification/)
     </Card>
-    <Card title="Visibility" icon="eye">
-      Control who can find and view your VTC: public, unlisted, and private visibility explained.
-      [Read the guide →](/guides/vtc-visibility/)
+    <Card title="Synlighet" icon="eye">
+      Kontrollera vem som kan hitta och se din VTC: förklaring av offentlig, dold och privat synlighet.
+      [Läs guiden →](/guides/vtc-visibility/)
     </Card>
-    <Card title="Activity Log" icon="document">
-      Review audit history for member actions and settings changes.
-      [Read the guide →](/guides/vtc-activity-log/)
+    <Card title="Aktivitetslogg" icon="document">
+      Granska historik för medlemsåtgärder och ändringar i inställningar.
+      [Läs guiden →](/guides/vtc-activity-log/)
     </Card>
-    <Card title="Disbanding a VTC" icon="warning">
-      Permanently close your VTC and understand what happens to members.
-      [Read the guide →](/guides/vtc-disbanding/)
+    <Card title="Avveckla en VTC" icon="warning">
+      Stäng permanent ner din VTC och förstå vad som händer med medlemmarna.
+      [Läs guiden →](/guides/vtc-disbanding/)
     </Card>
   </CardGrid>
 </HomeSection>
@@ -126,131 +126,131 @@ import QuickLinks from '../../components/QuickLinks.astro';
 <HomeSection
   id="discord-bot"
   title="Discord"
-  description="Link Discord to your account, verify VTC servers, and use Linked Roles on your community server."
+  description="Koppla Discord till ditt konto, verifiera VTC-servrar och använd länkade roller på din community-server."
   icon="external"
 >
   <CardGrid stagger>
-    <Card title="Connection Flows" icon="information">
-      How TrucklineMP uses Discord: linking, Linked Roles, VTC verification, and the main-server Verified VTC role.
-      [Read the guide →](/guides/discord-connection-flows/)
+    <Card title="Anslutningsflöden" icon="information">
+      Hur TrucklineMP använder Discord: kopplingar, länkade roller, VTC-verifiering och huvudserverns roll för verifierade VTC:er.
+      [Läs guiden →](/guides/discord-connection-flows/)
     </Card>
-    <Card title="Linked Roles" icon="external">
-      Install the TrucklineMP bot and let members opt in to verified roles on your server.
-      [Read the guide →](/guides/discord-linked-roles/)
+    <Card title="Länkade roller" icon="external">
+      Installera TrucklineMP-boten och låt medlemmar välja att ha verifierade roller på din server.
+      [Läs guiden →](/guides/discord-linked-roles/)
     </Card>
-    <Card title="Discord Notifications" icon="email">
-      Receive site notifications as Discord DMs when your account is linked.
-      [Read the guide →](/guides/discord-notifications/)
+    <Card title="Discord-notiser" icon="email">
+      Få webbplatsnotiser som Discord-direktmeddelanden när ditt konto är kopplat.
+      [Läs guiden →](/guides/discord-notifications/)
     </Card>
-    <Card title="Official Discord Server" icon="discord">
-      How the main TrucklineMP Discord relates to website support and moderation.
-      [Read the guide →](/guides/official-discord-server/)
+    <Card title="Officiell Discord-server" icon="discord">
+      Hur TrucklineMP:s huvud-Discord förhåller sig till support och moderering på webbplatsen.
+      [Läs guiden →](/guides/official-discord-server/)
     </Card>
   </CardGrid>
 </HomeSection>
 
 <HomeSection
   id="developers"
-  title="Developers"
-  description="Build integrations with the TrucklineMP Public API, OAuth, webhooks, and the Developer Console."
+  title="Utvecklare"
+  description="Bygg integrationer med TrucklineMP Public API, OAuth, webhooks och utvecklarkonsolen."
   icon="document"
 >
   <CardGrid stagger>
-    <Card title="Platform Overview" icon="rocket">
-      Enable Developer Mode, create projects, and choose between API keys, OAuth, or webhooks.
-      [Get started →](/guides/developers/overview/)
+    <Card title="Plattformsöversikt" icon="rocket">
+      Aktivera utvecklarläge, skapa projekt och välj mellan API-nycklar, OAuth eller webhooks.
+      [Kom igång →](/guides/developers/overview/)
     </Card>
-    <Card title="Developer Console" icon="setting">
-      Projects, analytics, audit logs, quotas, playground, and app directory.
-      [Read the guide →](/guides/developers/console/)
+    <Card title="Utvecklarkonsol" icon="setting">
+      Projekt, analys, granskningsloggar, kvoter, playground och appkatalog.
+      [Läs guiden →](/guides/developers/console/)
     </Card>
     <Card title="Public API" icon="document">
-      Authentication, base URLs, rate limits, and an endpoint overview for read-only REST access.
-      [Read the guide →](/guides/developers/public-api/)
+      Autentisering, bas-URL:er, hastighetsbegränsningar och en översikt över slutpunkter för skrivskyddad REST-åtkomst.
+      [Läs guiden →](/guides/developers/public-api/)
     </Card>
-    <Card title="OAuth Apps" icon="external">
-      Sign users in with TrucklineMP, configure PKCE, test users, and publish your application.
-      [Read the guide →](/guides/developers/oauth-apps/)
+    <Card title="OAuth-appar" icon="external">
+      Logga in användare med TrucklineMP, konfigurera PKCE, testa användare och publicera din applikation.
+      [Läs guiden →](/guides/developers/oauth-apps/)
     </Card>
     <Card title="Webhooks" icon="external">
-      Subscribe to platform events, verify HMAC signatures, and handle automatic retries.
-      [Read the guide →](/guides/developers/webhooks/)
+      Prenumerera på plattformshändelser, verifiera HMAC-signaturer och hantera automatiska återförsök.
+      [Läs guiden →](/guides/developers/webhooks/)
     </Card>
   </CardGrid>
 </HomeSection>
 
 <HomeSection
   id="account-guides"
-  title="Account Guides"
-  description="Manage your TrucklineMP profile, security, connections, support, and personal preferences."
+  title="Kontoguider"
+  description="Hantera din TrucklineMP-profil, säkerhet, anslutningar, support och personliga inställningar."
   icon="user"
 >
   <CardGrid stagger>
-    <Card title="Profile Settings" icon="user">
-      Configure your display name, social handle, profile picture, and social links.
-      [Read the guide →](/guides/profile-settings/)
+    <Card title="Profilinställningar" icon="user">
+      Konfigurera ditt visningsnamn, socialt handtag, profilbild och sociala länkar.
+      [Läs guiden →](/guides/profile-settings/)
     </Card>
-    <Card title="Public Profile" icon="open-book">
-      Profile tabs, badges, activity, forum, and what others can see.
-      [Read the guide →](/guides/public-profile/)
+    <Card title="Offentlig profil" icon="open-book">
+      Profilflikar, märken, aktivitet, forum och vad andra kan se.
+      [Läs guiden →](/guides/public-profile/)
     </Card>
-    <Card title="User Directory" icon="external">
-      Search and browse TrucklineMP user profiles.
-      [Read the guide →](/guides/user-directory/)
+    <Card title="Användarkatalog" icon="external">
+      Sök och bläddra bland TrucklineMP-användarprofiler.
+      [Läs guiden →](/guides/user-directory/)
     </Card>
-    <Card title="Account Security" icon="lock">
-      Protect your account with two-factor authentication, session management, and Developer Mode.
-      [Read the guide →](/guides/account-security/)
+    <Card title="Kontosäkerhet" icon="lock">
+      Skydda ditt konto med tvåfaktorsautentisering, sessionshantering och utvecklarläge.
+      [Läs guiden →](/guides/account-security/)
     </Card>
-    <Card title="Connections" icon="external">
-      Link and manage external accounts: Discord, Google, YouTube, and Twitch.
-      [Read the guide →](/guides/connections/)
+    <Card title="Anslutningar" icon="external">
+      Koppla och hantera externa konton: Discord, Google, YouTube och Twitch.
+      [Läs guiden →](/guides/connections/)
     </Card>
-    <Card title="Regional & Timezone" icon="globe">
-      Set your timezone for events, notifications, and localized times.
-      [Read the guide →](/guides/regional-timezone/)
+    <Card title="Region & tidszon" icon="globe">
+      Ställ in din tidszon för evenemang, notiser och lokala tider.
+      [Läs guiden →](/guides/regional-timezone/)
     </Card>
-    <Card title="Notifications" icon="bell">
-      Use the notification bell and understand Discord DM delivery.
-      [Read the guide →](/guides/notifications/)
+    <Card title="Notiser" icon="bell">
+      Använd notisklockan och förstå hur Discord-direktmeddelanden fungerar.
+      [Läs guiden →](/guides/notifications/)
     </Card>
-    <Card title="Appearance & Preferences" icon="setting">
-      Customize themes, manage authorized apps, export data, and configure forum settings.
-      [Read the guide →](/guides/appearance-preferences/)
+    <Card title="Utseende & preferenser" icon="setting">
+      Anpassa teman, hantera auktoriserade appar, exportera data och konfigurera foruminställningar.
+      [Läs guiden →](/guides/appearance-preferences/)
     </Card>
     <Card title="Forum" icon="open-book">
-      Use forum.trucklinemp.com with your TrucklineMP account.
-      [Read the guide →](/guides/forum/)
+      Använd forum.trucklinemp.com med ditt TrucklineMP-konto.
+      [Läs guiden →](/guides/forum/)
     </Card>
-    <Card title="Support Tickets" icon="email">
-      Open tickets for help, player reports, and staff assistance.
-      [Read the guide →](/guides/support-tickets/)
+    <Card title="Supportärenden" icon="email">
+      Öppna ärenden för att få hjälp, rapportera spelare och få assistans från personalen.
+      [Läs guiden →](/guides/support-tickets/)
     </Card>
-    <Card title="Bans & Appeals" icon="warning">
-      Public ban records and how to submit an appeal.
-      [Read the guide →](/guides/bans-appeals/)
+    <Card title="Avstängningar & överklaganden" icon="warning">
+      Publika avstängningsregister och hur du skickar in en överklagan.
+      [Läs guiden →](/guides/bans-appeals/)
     </Card>
-    <Card title="Account Deletion" icon="trash">
-      Learn how to permanently delete your account and understand what happens when you do.
-      [Read the guide →](/guides/account-deletion/)
+    <Card title="Kontoradering" icon="trash">
+      Lär dig hur du raderar ditt konto permanent och förstå vad som händer när du gör det.
+      [Läs guiden →](/guides/account-deletion/)
     </Card>
   </CardGrid>
 </HomeSection>
 
 <HomeSection
   id="contribute"
-  title="Contribute"
-  description="Help improve TrucklineMP documentation through translations and community contributions."
+  title="Bidra"
+  description="Hjälp till att förbättra TrucklineMP-dokumentationen genom översättningar och community-bidrag."
   icon="open-book"
 >
   <CardGrid stagger>
-    <Card title="Translate Documentation" icon="open-book">
-      Help make TrucklineMP accessible to everyone by translating documentation into your language.
-      [Read the guide →](/guides/contributing/)
+    <Card title="Översätt dokumentation" icon="open-book">
+      Hjälp till att göra TrucklineMP tillgängligt för alla genom att översätta dokumentationen till ditt språk.
+      [Läs guiden →](/guides/contributing/)
     </Card>
-    <Card title="Contributors" icon="star">
-      Meet the community contributors and Truckline team behind the documentation.
-      [View contributors →](/guides/contributors/)
+    <Card title="Bidragsgivare" icon="star">
+      Möt community-bidragsgivarna och Truckline-teamet bakom dokumentationen.
+      [Se bidragsgivare →](/guides/contributors/)
     </Card>
   </CardGrid>
 </HomeSection>

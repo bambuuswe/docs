@@ -1,200 +1,200 @@
 ---
-title: Account Security
-description: Protect your TrucklineMP account with two-factor authentication, session management, developer mode, and privacy settings.
+title: Kontosäkerhet
+description: Skydda ditt TrucklineMP-konto med tvåfaktorsautentisering, sessionshantering, utvecklarläge och integritetsinställningar.
 ---
 
-# Account Security
+# Kontosäkerhet
 
-Manage your account security, active sessions, and privacy settings to keep your account safe.
+Hantera din kontosäkerhet, aktiva sessioner och integritetsinställningar för att hålla ditt konto säkert.
 
-## Accessing Security Settings
+## Åtkomst till säkerhetsinställningar
 
-1. Click your avatar in the top-right corner
-2. Select **Settings**
-3. Select the **Security** tab
-4. Or navigate to `trucklinemp.com/user/me/settings?tab=security`
-
----
-
-## Connected Account (Steam)
-
-Your Steam account is permanently linked to your TrucklineMP account.
-
-- **Status:** Cannot be disconnected
-- **Purpose:** Primary identity verification
-- **Steam ID:** Displayed in this section
-
-This connection is required for account verification and cannot be changed.
+1. Klicka på din avatar i det övre högra hörnet
+2. Välj **Inställningar**
+3. Välj fliken **Säkerhet**
+4. Eller navigera till `trucklinemp.com/user/me/settings?tab=security`
 
 ---
 
-## Two-Factor Authentication (2FA)
+## Kopplat konto (Steam)
 
-Add an extra layer of security to your account.
+Ditt Steam-konto är permanent kopplat till ditt TrucklineMP-konto.
 
-### Enabling 2FA
+- **Status:** Kan inte kopplas bort
+- **Syfte:** Primär identitetsverifiering
+- **Steam ID:** Visas i det här avsnittet
 
-1. Click **Enable 2FA**
-2. A QR code is generated
-3. Scan the QR code with your authenticator app:
+Denna koppling krävs för kontoverifiering och kan inte ändras.
+
+---
+
+## Tvåfaktorsautentisering (2FA)
+
+Lägg till ett extra lager av säkerhet till ditt konto.
+
+### Aktivera 2FA
+
+1. Klicka på **Aktivera 2FA**
+2. En QR-kod genereras
+3. Skanna QR-koden med din autentiseringsapp:
    - Google Authenticator
    - Authy
    - Microsoft Authenticator
-   - Any TOTP-compatible app
-4. Or manually enter the secret key shown below the QR code
-5. Click **Continue to Verification**
-6. Enter the 6-digit code from your app
-7. Click **Verify & Enable**
-8. **Save your backup codes** — they won't be shown again
+   - Valfri TOTP-kompatibel app
+4. Eller ange den hemliga nyckeln som visas under QR-koden manuellt
+5. Klicka på **Fortsätt till verifiering**
+6. Ange den 6-siffriga koden från din app
+7. Klicka på **Verifiera & aktivera**
+8. **Spara dina reservkoder** — de kommer inte att visas igen
 
-### Backup Codes
+### Reservkoder
 
-When you enable 2FA, you receive **10 backup codes**:
-- Each code can be used **once**
-- Use them if you lose access to your authenticator app
-- Store them in a safe place (password manager, printed copy)
-- You can copy all codes at once
+När du aktiverar 2FA får du **10 reservkoder**:
+- Varje kod kan användas **en gång**
+- Använd dem om du tappar åtkomst till din autentiseringsapp
+- Förvara dem på en säker plats (lösenordshanterare, utskriven kopia)
+- Du kan kopiera alla koder samtidigt
 
-### Disabling 2FA
+### Inaktivera 2FA
 
-1. Click **Disable 2FA**
-2. Enter your authenticator code **or** a backup code
-3. Click **Disable 2FA**
-4. 2FA is now removed from your account
+1. Klicka på **Inaktivera 2FA**
+2. Ange din autentiseringskod **eller** en reservkod
+3. Klicka på **Inaktivera 2FA**
+4. 2FA är nu borttagen från ditt konto
 
-**Warning:** Disabling 2FA makes your account less secure.
+**Varning:** Att inaktivera 2FA gör ditt konto mindre säkert.
 
-### If You Lose Your Authenticator
+### Om du tappar bort din autentiseringsapp
 
-1. Use a backup code to sign in
-2. Once signed in, go to Security Settings
-3. Disable 2FA using the backup code
-4. Re-enable 2FA with a new authenticator app
+1. Använd en reservkod för att logga in
+2. När du är inloggad, gå till säkerhetsinställningar
+3. Inaktivera 2FA med hjälp av reservkoden
+4. Återaktivera 2FA med en ny autentiseringsapp
 
-**Without backup codes:** Contact support via Discord with proof of identity.
-
----
-
-## Developer Mode
-
-Enable the Developer Console to access professional tools.
-
-### What You Get
-- Create API projects
-- Manage API credentials
-- Access developer documentation
-- Build integrations with TrucklineMP
-
-### Enabling Developer Mode
-1. Click **Activate** in the Developer Mode section
-2. Read the confirmation dialog
-3. Click **Confirm Activation**
-4. Developer mode is now active
-
-**Warning:** This action is permanent and irreversible.
-
-### Accessing the Console
-- Once enabled, click **Open Console** to access developer tools
-- Or navigate to `trucklinemp.com/developer`
+**Utan reservkoder:** Kontakta supporten via Discord med bevis på identitet.
 
 ---
 
-## Active Sessions
+## Utvecklarläge
 
-View and manage all devices currently signed into your account.
+Aktivera utvecklarkonsolen för att få tillgång till professionella verktyg.
 
-### Session Information
-Each session shows:
-- **Browser** — Chrome, Firefox, Safari, Edge
-- **Operating System** — Windows, macOS, Linux, Android, iOS
-- **IP Address** — The IP the session originated from
-- **Start Date** — When the session was created
-- **Current badge** — Marks your current session
+### Vad du får
+- Skapa API-projekt
+- Hantera API-uppgifter
+- Tillgång till utvecklardokumentation
+- Bygg integrationer med TrucklineMP
 
-### Revoking a Session
-1. Find the session you want to revoke
-2. Click **Revoke** next to it
-3. The session is immediately signed out
-4. The device will need to sign in again
+### Aktivera utvecklarläge
+1. Klicka på **Aktivera** i avsnittet för utvecklarläge
+2. Läs bekräftelsedialogrutan
+3. Klicka på **Bekräfta aktivering**
+4. Utvecklarläget är nu aktivt
 
-### Signing Out All Other Sessions
-1. Click **Sign out all other sessions** at the top
-2. All sessions except your current one are revoked
-3. Useful if you suspect unauthorized access
+**Varning:** Denna åtgärd är permanent och går inte att ångra.
 
----
-
-## Privacy Settings
-
-### Hide External Configurations
-- When enabled, your Truckline Utils configurations are only visible to you and administrators
-- Other users cannot see your configurations on your profile
-- Toggle the checkbox to enable or disable
+### Åtkomst till konsolen
+- När det är aktiverat, klicka på **Öppna konsol** för att få tillgång till utvecklarverktyg
+- Eller navigera till `trucklinemp.com/developer`
 
 ---
 
-## Legal Documents
+## Aktiva sessioner
 
-View the status of legal document acceptances:
-- Terms of Service
-- Privacy Policy
-- Other required agreements
+Visa och hantera alla enheter som för närvarande är inloggade på ditt konto.
 
-Pending documents are listed and require acceptance to continue using certain features.
+### Sessionsinformation
+Varje session visar:
+- **Webbläsare** — Chrome, Firefox, Safari, Edge
+- **Operativsystem** — Windows, macOS, Linux, Android, iOS
+- **IP-adress** — IP-adressen sessionen skapades ifrån
+- **Startdatum** — När sessionen skapades
+- **Nuvarande märke** — Markerar din nuvarande session
 
----
+### Återkalla en session
+1. Hitta sessionen du vill återkalla
+2. Klicka på **Återkalla** bredvid den
+3. Sessionen loggas ut omedelbart
+4. Enheten måste logga in igen
 
-## Staff Document Acknowledgements
-
-If you're a staff member, view documents you've acknowledged:
-- Document title and version
-- Date of acceptance
-
----
-
-## Security Best Practices
-
-### Essential
-- **Enable 2FA** — The single most important security step
-- **Save backup codes** — Store them in a password manager
-- **Review sessions regularly** — Revoke anything you don't recognize
-- **Use a strong password** — Unique to TrucklineMP
-
-### Recommended
-- Sign out on shared devices
-- Review authorized apps periodically
-- Keep your connected accounts up to date
-- Report suspicious activity immediately
+### Logga ut alla andra sessioner
+1. Klicka på **Logga ut alla andra sessioner** högst upp
+2. Alla sessioner utom din nuvarande återkallas
+3. Användbart om du misstänker obehörig åtkomst
 
 ---
 
-## Troubleshooting
+## Integritetsinställningar
 
-### "I can't enable 2FA"
-- Ensure your authenticator app supports TOTP
-- Check that your device's time is synchronized
-- Try a different authenticator app
-
-### "I lost my backup codes"
-- If still signed in, disable 2FA and re-enable it
-- If locked out, contact support via Discord
-- Provide proof of identity for account recovery
-
-### "I see a session I don't recognize"
-- Revoke the session immediately
-- Change your password if possible
-- Enable 2FA if not already enabled
-- Contact support if you suspect unauthorized access
-
-### "I can't sign in with 2FA"
-- Check that your authenticator app's time is correct
-- Try a backup code
-- If all else fails, contact support
+### Dölj externa konfigurationer
+- När det är aktiverat är dina Truckline Utils-konfigurationer endast synliga för dig och administratörer
+- Andra användare kan inte se dina konfigurationer på din profil
+- Växla kryssrutan för att aktivera eller inaktivera
 
 ---
 
-## Related Guides
+## Juridiska dokument
 
-- [Profile Settings](/guides/profile-settings/) — Manage your public profile
-- [Connections](/guides/connections/) — Link external accounts
-- [Account Deletion](/guides/account-deletion/) — Delete your account
+Se status för godkännande av juridiska dokument:
+- Användarvillkor (Terms of Service)
+- Integritetspolicy (Privacy Policy)
+- Andra obligatoriska avtal
+
+Väntande dokument listas och kräver godkännande för att fortsätta använda vissa funktioner.
+
+---
+
+## Bekräftelser av personaldokument
+
+Om du är personal, se dokument du har bekräftat:
+- Dokumenttitel och version
+- Datum för godkännande
+
+---
+
+## Bästa praxis för säkerhet
+
+### Grundläggande
+- **Aktivera 2FA** — Det enskilt viktigaste säkerhetssteget
+- **Spara reservkoder** — Lagra dem i en lösenordshanterare
+- **Granska sessioner regelbundet** — Återkalla allt du inte känner igen
+- **Använd ett starkt lösenord** — Unikt för TrucklineMP
+
+### Rekommenderat
+- Logga ut på delade enheter
+- Granska auktoriserade appar periodvis
+- Håll dina kopplade konton uppdaterade
+- Rapportera misstänkt aktivitet omedelbart
+
+---
+
+## Felsökning
+
+### "Jag kan inte aktivera 2FA"
+- Se till att din autentiseringsapp stöder TOTP
+- Kontrollera att din enhets tid är synkroniserad
+- Prova en annan autentiseringsapp
+
+### "Jag tappade bort mina reservkoder"
+- Om du fortfarande är inloggad, inaktivera 2FA och aktivera det igen
+- Om du är utestängd, kontakta supporten via Discord
+- Tillhandahåll bevis på identitet för kontoåterställning
+
+### "Jag ser en session jag inte känner igen"
+- Återkalla sessionen omedelbart
+- Ändra ditt lösenord om möjligt
+- Aktivera 2FA om det inte redan är aktiverat
+- Kontakta supporten om du misstänker obehörig åtkomst
+
+### "Jag kan inte logga in med 2FA"
+- Kontrollera att din autentiseringsapps tid är korrekt
+- Prova en reservkod
+- Om allt annat misslyckas, kontakta supporten
+
+---
+
+## Relaterade guider
+
+- [Profilinställningar](/guides/profile-settings/) — Hantera din offentliga profil
+- [Anslutningar](/guides/connections/) — Koppla externa konton
+- [Kontoradering](/guides/account-deletion/) — Radera ditt konto
